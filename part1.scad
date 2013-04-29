@@ -1,6 +1,6 @@
 $fn=50;
 
-module example001()
+module part1()
 {
 	difference() {
 
@@ -18,5 +18,5 @@ module example001()
 	
 }
 
-example001();
+part1();
 

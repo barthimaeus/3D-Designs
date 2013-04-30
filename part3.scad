@@ -8,7 +8,8 @@ module part3()
 				translate([-5,0,0])cylinder(h=1, r=2,center=true);
 				translate([5,0,0])cylinder(h=1, r=2,center=true);
 			}
-		
+			translate([-5,0,0]) cylinder(r=1,h=1,center=true);
+			translate([5,0,0]) cylinder(r=1,h=1,center=true);
 		}
 	}
 	

@@ -1,9 +1,8 @@
-$fn=80;
+$fn=50;
 
 
 module structure()
 {
-	difference(){
 		union(){
 			difference(){
 				union(){
@@ -16,8 +15,6 @@ module structure()
 			translate([0,0,13])cylinder(0.5, r=0.5*13);
 		}
 		translate([0,0,12.5])cylinder(1, r=0.5*10);
-		cylinder(1, r=0.5*42);
-	}
 }
 
 module holes(){
